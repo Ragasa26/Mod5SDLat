@@ -5,13 +5,11 @@ public class App {
         BinaryTree pohon = new BinaryTree();
 
         pohon.NewNode(20);
-        pohon.NewNode(3);
+        pohon.NewNode(2);
         pohon.NewNode(25);
         pohon.NewNode(37);
         pohon.NewNode(16);
-        pohon.NewNode(17);
-        pohon.NewNode(1);
-        pohon.NewNode(2);
+
 
         System.out.println("\npreOrder  : ");
         pohon.preOrder(pohon.root);
